@@ -55,6 +55,7 @@ public class EsTestDemo {
         for (SearchHit hit : hits) {
             String sourceAsString = hit.getSourceAsString();
             System.out.println(sourceAsString);
+            System.out.println(12312);
         }
     }
 
